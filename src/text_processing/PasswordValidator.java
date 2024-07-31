@@ -1,8 +1,8 @@
-package validator;
+package text_processing;
 
 import java.util.Scanner;
 
-public class Password {
+public class PasswordValidator {
     public static void main(String[] args) {
         String username = "johndoe";
         String password = "ABC_1234";
