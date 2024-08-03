@@ -29,8 +29,8 @@ public class Rectangle {
     public void setSides(double sides) {
         this.sides = sides;
     }
-
-    public double calculatePerimeter(){
+    //changing to protected has no impact as the overridden method is declared public
+    protected double calculatePerimeter(){
         return (2 * length) + (2 * width);
     }
 
