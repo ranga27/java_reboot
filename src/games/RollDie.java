@@ -1,4 +1,4 @@
-package dieGame;
+package games;
 
 import java.util.Random;
 
